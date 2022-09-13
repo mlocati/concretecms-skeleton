@@ -1,0 +1,38 @@
+{
+    "name": "mlocati/concretecms-skeleton",
+    "description": "The bare minimum structure for a ConcreteCMS installation with Composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michele Locati",
+            "email": "michele@locati.it"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "composer/installers": "^2.2",
+        "concrete5/core": "^9.1",
+        "concretecms/dependency-patches": "^1.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "mlocati/composer-patcher": true
+        },
+        "optimize-autoloader" : true,
+        "preferred-install": "dist",
+        "sort-packages" : true
+    },
+    "extra": {
+        "allow-subpatches": [
+            "concretecms/dependency-patches"
+        ],
+        "installer-paths": {
+            "web/concrete": ["type:concrete5-core"],
+            "web/application/themes/{$name}": ["type:concrete5-theme"],
+            "web/packages/{$name}": ["type:concrete5-package"],
+            "web/application/blocks/{$name}": ["type:concrete5-block"]
+        }
+    }
+}
