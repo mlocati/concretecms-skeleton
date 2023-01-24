@@ -12,7 +12,8 @@
     "minimum-stability": "stable",
     "require": {
         "composer/installers": "^2.2",
-        "concrete5/core": "^9.1"
+        "concrete5/core": "^9.1",
+		"doctrine/orm": "<2.14"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "2.19.2",
