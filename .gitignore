@@ -3,3 +3,4 @@
 /web/application/config/generated_overrides/
 /web/application/languages/
 /web/concrete/
+.php_cs.cache*
