@@ -1,6 +1,10 @@
 /vendor/
 /web/application/config/doctrine/
 /web/application/config/generated_overrides/
+/web/application/files/
 /web/application/languages/
 /web/concrete/
-.php_cs.cache*
+/web/packages/
+/web/.htaccess
+/web/sitemap.xml
+/.php_cs.cache*
