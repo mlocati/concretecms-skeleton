@@ -27,7 +27,7 @@ In order to avoid such problems, we can instruct composer to assume a specific P
 
 That's done in the `composer.json` file with the following lines:
 
-```
+```json
 {
     "config": {
         "platform" : {

@@ -34,8 +34,8 @@
     },
     "extra": {
         "allow-subpatches": [
-            "concrete5/dependency-patches",
-            "concretecms/dependency-patches"
+            "concretecms/dependency-patches",
+            "concrete5/dependency-patches"
         ],
         "installer-paths": {
             "web/concrete": [
