@@ -19,19 +19,19 @@ Simply [download this .zip file](https://github.com/mlocati/concretecms-skeleton
 
 ### ConcreteCMS Version
 
-The ConcreteCMS version that will be installed is controlled by the `concrete5/core` defined in the `require` section of the `composer.json`file:
+The ConcreteCMS version that will be installed is controlled by the `concretecms/core` defined in the `require` section of the `composer.json`file:
 
 ```json
 {
     "require": {
-        "concrete5/core": "^9"
+        "concretecms/core": "^9"
     }
 }
 ```
 
 That `^9` means *install the [most recent version 9, but not version 10 or later](https://getcomposer.org/doc/articles/versions.md#caret-version-range-)*.  
 You can of course adjust it.
-For example, if you want to install the exact version `9.4.8`, simply write `"concrete5/core": "9.4.8"`.
+For example, if you want to install the exact version `9.4.8`, simply write `"concretecms/core": "9.4.8"`.
 
 ### PHP Version
 
