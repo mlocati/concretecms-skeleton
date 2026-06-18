@@ -55,24 +55,6 @@ That's done in the `composer.json` file with the following lines:
 
 You may want to adjust the PHP version so that it reflects the one you use in production.
 
-### PHP-CS-Fixer
-
-The `composer.json` file contains this section:
-
-```json
-{
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "...",
-        "sebastian/diff": "..."
-    }
-}
-```
-
-That's required by the `c5:phpcs` CLI command, useful for checking/fixing the PHP syntax.
-
-If you don't plan to use it (or if you don't even know what it's all about) you can simply remove that whole `require-dev` section.
-
-
 ### Development Environment
 
 You can create a `.env` file in the root directory of your project with this line:
