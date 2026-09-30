@@ -21,6 +21,26 @@
             "composer/installers": true,
             "mlocati/composer-patcher": true
         },
+        "audit": {
+            "ignore": {
+                "PKSA-w9tt-7782-78jx": "league/flysystem CVE-2026-102601: fixed by concretecms/dependency-patches",
+                "PKSA-kvv6-36cr-fkzb": "twig/twig CVE-2026-46627: fixed by concretecms/dependency-patches",
+                "PKSA-sjvz-tbbr-vwth": "twig/twig CVE-2026-46628: fixed by concretecms/dependency-patches",
+                "PKSA-h8hf-ytnd-5t9q": "twig/twig CVE-2026-46633: fixed by concretecms/dependency-patches",
+                "PKSA-21g2-dzjv-sky5": "twig/twig CVE-2026-46634: fixed by concretecms/dependency-patches",
+                "PKSA-3mcc-k66d-pydb": "twig/twig CVE-2026-46638: fixed by concretecms/dependency-patches",
+                "PKSA-wwb1-81rc-pd65": "twig/twig CVE-2026-47730: fixed by concretecms/dependency-patches",
+                "PKSA-gw7n-z4yx-7xjt": "twig/twig CVE-2026-24425: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-n14z-jjjg-g8vd": "twig/twig CVE-2026-46635: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-yd6k-t2gh-1m43": "twig/twig CVE-2026-46636: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-dpx1-78wg-1kqs": "twig/twig CVE-2026-47732: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-g9zw-qxh8-pq8w": "twig/twig CVE-2026-48805: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-1tmc-rt7x-12w6": "twig/twig CVE-2026-48806: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-xx6c-6d96-db2w": "twig/twig CVE-2026-48807: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-fbvq-z33h-r2np": "twig/twig CVE-2026-48808: not fixed, it affects the Twig sandbox (not used by Concrete CMS)",
+                "PKSA-8zx5-v2nz-58pb": "twig/twig CVE-2026-49981: not fixed, it affects the Twig sandbox (not used by Concrete CMS)"
+            }
+        },
         "optimize-autoloader" : true,
         "platform" : {
             "php" : "7.3"
