@@ -30,7 +30,7 @@ jobs:
           tools: none
       -
         name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       -
         name: Check syntax
         uses: mlocati/check-php-syntax@v1
@@ -50,7 +50,7 @@ jobs:
           tools: composer
       -
         name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       -
         name: Check composer.json
         run: composer --ansi --no-interaction validate --strict
@@ -93,7 +93,7 @@ jobs:
           extensions: curl,fileinfo,gd,intl,mbstring,openssl,pdo_mysql
       -
         name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       -
         name: Install dependencies
         run: composer --ansi --no-interaction install --prefer-dist --optimize-autoloader
