@@ -8,4 +8,4 @@
 /web/.htaccess
 /web/sitemap.xml
 /.env
-/.php_cs.cache*
+/*.cache
